@@ -15,7 +15,7 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?q="+textArea.value+"&app
   console.log(data)
   let theDay = $("<h1 id = #theDay>"+currentDay+"</h1>")
   $("#container").append(theDay);
-  // hum.innerHTML = data.list.main.humidity 
+  hum.innerHTML = data.main.list[0].humidity;
 }
 );
 }
