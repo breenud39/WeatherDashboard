@@ -1,0 +1,78 @@
+* 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-size: 700;
+  margin: 0;
+  line-height: 1.25;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1
+{
+  padding: 10px;
+  background-image: linear-gradient(to left, darkblue, skyblue);
+  color: white;
+  text-align: center;
+}
+
+section
+{
+  margin: 10px;
+}
+
+textarea
+{
+  resize: none;
+  width: 300px;
+  height: 50px;
+  text-align: left;
+  line-height: 3;
+}
+
+button
+{
+  color: white;
+  background-image: linear-gradient(to left, lightblue, skyblue);
+  text-decoration: none;
+  border-radius: .3rem;
+  margin: 10px;
+  width: 300px;
+  height: 25px;
+}
+
+.divider
+{
+  background-color: lightgrey;
+  width: 300px;
+  height: 5px;
+  margin: 10px;
+}
+
+#cityButton
+{
+  background-color: lightgrey;
+  width: 300px;
+  height: 25px;
+  border-radius: .3rem;
+}
+
+#searchedName
+{
+  text-align: center;
+  line-height: 1.5px;
+}

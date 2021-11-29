@@ -14,10 +14,22 @@
 
   <section>
     <h2>Search for a City:</h2>
-    <textarea></textarea>
-    <button>Search</button>
+    <textarea id="txtarea" placeholder="Enter City Name"></textarea>
+  </section>
+  <button id = "Search">Search</button>
+  <div class = divider></div>
+  <div id = "searchHistory">
+    <button id = "cityButton"><span id = "searchedName"></span></button>
+  </div>
+  <section>
+    <div id="container">
+      <p><span id = "cityName"></span></p>
+      <p>Humidity: <span id ="humidity"></span></p>
+    </div>
   </section>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="./assets/js/homepage.js"></script>
 </body>
 </html>
