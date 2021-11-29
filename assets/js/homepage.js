@@ -13,13 +13,13 @@ fetch("https://api.openweathermap.org/data/2.5/forecast?q="+textArea.value+"&app
 .then(response => response.json())
 .then(data =>{
   console.log(data)
-  let theDay = $("<h1 id = #theDay>"+currentDay+"</h1>")
-  $("#container").append(theDay);
-  hum.innerHTML = data.main.list[0].humidity;
+  // hum.innerHTML = data.main.humidity 
+  hum.innerHTML = list.main.humidity;
 }
 );
 }
-
+let theDay = $("<h1 id = #theDay>"+currentDay+"</h1>")
+$("#container").append(theDay);
 function showHistory()
 {
   console.log("This works")
